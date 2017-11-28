@@ -1,0 +1,6 @@
+1. Sample the Acceleromter (ax, ay, az), Gyroscope (gx, gy, gz), and the timestamp preferrable at sample time >= @200 hz
+2. Collect thirty samples of data
+3. if threshold of the thirtieth sample > 5.5 
+    - we want to sample for another thirty seconds 
+    - Save the sixty samples into imuProcessing class
+4. Iterate over loop 
